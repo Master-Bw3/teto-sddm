@@ -32,4 +32,4 @@ zip: build (_zip "teto")
 
 # Install themes
 install: build
-  cp -r {{output_dir}}/catppuccin-* /usr/share/sddm/themes/
+  cp -r {{output_dir}}/* /usr/share/sddm/themes/
