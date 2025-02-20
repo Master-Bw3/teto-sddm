@@ -26,7 +26,7 @@ Item {
         when: sleepButton.hovered
         PropertyChanges {
           target: sleepButtonBg
-          color: config.rosewater
+          color: config.red
         }
       }
     ]

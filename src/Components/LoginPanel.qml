@@ -88,7 +88,7 @@ Item {
       }
       background: Rectangle {
         id: buttonBackground
-        color: config.sapphire
+        color: config.red
         radius: 3
       }
       states: [
@@ -97,7 +97,7 @@ Item {
           when: loginButton.down
           PropertyChanges {
             target: buttonBackground
-            color: config.teal
+            color: config.red
           }
           PropertyChanges {
             target: buttonText
@@ -108,7 +108,7 @@ Item {
           when: loginButton.hovered
           PropertyChanges {
             target: buttonBackground
-            color: config.teal
+            color: config.red
           }
           PropertyChanges {
             target: buttonText

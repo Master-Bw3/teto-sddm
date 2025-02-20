@@ -26,7 +26,7 @@ Item {
         when: powerButton.hovered
         PropertyChanges {
           target: powerButtonBackground
-          color: config.rosewater
+          color: config.red
         }
       }
     ]

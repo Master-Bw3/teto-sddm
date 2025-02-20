@@ -26,7 +26,7 @@ Item {
         when: rebootButton.hovered
         PropertyChanges {
           target: rebootButtonBackground
-          color: config.rosewater
+          color: config.red
         }
       }
     ]

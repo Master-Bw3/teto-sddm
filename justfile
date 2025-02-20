@@ -22,13 +22,13 @@ _build flavor:
   cp "pertheme/{{flavor}}.conf" "{{output_dir}}/catppuccin-{{flavor}}/theme.conf"
 
 # Build theme
-build: clean (_build "latte") (_build "frappe") (_build "macchiato") (_build "mocha")
+build: clean (_build "mocha")
 
 _zip flavor:
   cd {{output_dir}} ; zip -r catppuccin-{{flavor}}.zip catppuccin-{{flavor}}
 
 # Generate zips
-zip: build (_zip "latte") (_zip "frappe") (_zip "macchiato") (_zip "mocha")
+zip: build (_zip "mocha")
 
 # Install themes
 install: build
